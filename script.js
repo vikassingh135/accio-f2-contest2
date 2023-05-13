@@ -45,13 +45,13 @@ function concatenateArray() {
     { id: 7, name: "shan", age: "30", marks: 30 },
   ];
 
-  let concatenated_arr = arr.concat(arr2);
-  console.log(concatenated_arr);
+  arr = arr.concat(arr2);
+  console.log(arr);
 }
 
 
-PrintStudentswithMap();
-PrintStudentsbyForEach();
-addData();
-removeFailedStudent();
+// PrintStudentswithMap();
+// PrintStudentsbyForEach();
+// addData();
+// removeFailedStudent();
 concatenateArray();
